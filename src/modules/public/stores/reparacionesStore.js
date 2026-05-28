@@ -1,7 +1,7 @@
 import { defineStore } from "pinia";
 import { ref, computed } from 'vue';
 
-const URL_BACKEND = "http://127.0.0.1:5000";
+const URL_BACKEND = "https://api-techfix-backend.onrender.com";
 
 export const useReparacionesStore = defineStore('reparaciones', () => {
   // Variables de estado
@@ -68,7 +68,7 @@ export const useReparacionesStore = defineStore('reparaciones', () => {
       const eliminarReparacion = async (id) => {
     try {
       // Hacemos la petición DELETE al backend
-      const respuesta = await fetch(`http://127.0.0.1:5000/reparaciones/${id}`, {
+      const respuesta = await fetch(`${URL_BACKEND}/reparaciones/${id}`, {
         method: 'DELETE'
       });
 
