@@ -41,7 +41,6 @@ El proyecto utiliza una arquitectura **Cliente-Servidor (Desacoplada)**:
 3. **Base de Datos:** Capa de persistencia remota para el almacenamiento de la información.
 
 ## Capturas del Sistema
-*(Instrucciones: Arrastra aquí tus imágenes en GitHub para que se generen los enlaces automáticamente)*
 
 * **Pantalla de Inicio / Dashboard:** <img width="1882" height="894" alt="INICIO" src="https://github.com/user-attachments/assets/9bf64fb3-62a9-47c3-a88f-75329d184f07" />
 * **Módulo de Inventario:** <img width="1897" height="917" alt="INVENTARIO" src="https://github.com/user-attachments/assets/09bed814-ce24-4116-beff-d8de291f57bc" />
